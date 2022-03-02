@@ -1,0 +1,85 @@
+:root{ 
+    --blue: #043878;
+    --blueTwo: #00B0EA;
+}
+
+body{
+    background: rgb(0,92,168);
+   
+}
+
+#logo{
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.container{
+    position: absolute;
+    width: 53%;
+    height: 1024px;
+    background-color: white;
+    left: 0px;
+    top: 0px;
+}
+
+#login{
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00B0EA;
+    
+}
+
+#subtitle{
+    margin-bottom: 10px;
+}
+
+#divisor{
+    width: 40px;
+    border: 2px solid #00B0EA;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+.redesSociais{
+    display: flex;
+    justify-content: center;
+    margin-right: 9px;
+    margin-top: 15px;
+
+}
+
+.box{
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.46);
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 10px;
+    padding: 2px;
+}
+
+.img{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.formLogin{
+    margin-top: 40px;
+}
+
+.formLogin input{
+    width: 250px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    border: 1px solid rgba(0, 0, 0, 0.46);
+    background-color: #EDEDED;
+    padding: 5px;
+    line-height: 23px;
+    font-size: 15px;
+    padding-left: 15px;
+}
